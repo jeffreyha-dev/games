@@ -1,0 +1,52 @@
+{
+  "note": "src is relative to assets/. null src uses the placeholder_* sprite. tint recolours opaque pixels (#rrggbb). Add art with `bun run studio assets copy`.",
+  "sprites": {
+    "enemy": {
+      "src": "kenney/1-bit-pack/monochrome-transparent.png",
+      "crop": [
+        561,
+        136,
+        16,
+        16
+      ],
+      "tint": "#cc44ff",
+      "w": 28,
+      "h": 28,
+      "angle": 0
+    },
+    "node": {
+      "src": "kenney/1-bit-pack/monochrome-transparent.png",
+      "crop": [
+        714,
+        187,
+        16,
+        16
+      ],
+      "tint": "#00e5ff",
+      "w": 32,
+      "h": 32,
+      "angle": 0
+    },
+    "core": {
+      "src": "kenney/1-bit-pack/monochrome-transparent.png",
+      "crop": [
+        765,
+        153,
+        16,
+        16
+      ],
+      "tint": "#ffd23f",
+      "w": 48,
+      "h": 48,
+      "angle": 0
+    }
+  },
+  "audio": {
+    "music": {
+      "src": "generated/audio/music.mp3",
+      "loop": true,
+      "volume": 0.5,
+      "loopStart": 1.5
+    }
+  }
+}
