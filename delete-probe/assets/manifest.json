@@ -1,0 +1,8 @@
+{
+  "note": "src is relative to assets/. Optional crop [x,y,w,h] cuts a tile from a sheet, tint recolours opaque pixels (#rrggbb), outline adds a 1px dark border. null src uses the placeholder_* sprite. angle = facing of the art in degrees. Add art with `bun run studio assets copy`.",
+  "sprites": {
+    "player": { "src": null, "w": 36, "h": 36, "angle": 0 },
+    "coin": { "src": null, "w": 24, "h": 24, "angle": 0 },
+    "hazard": { "src": null, "w": 40, "h": 40, "angle": 0 }
+  }
+}
