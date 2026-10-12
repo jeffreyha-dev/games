@@ -1,0 +1,47 @@
+{
+  "note": "3D games: `models` (glTF, from `studio render`) and `sprites` (2D art for the HUD). src is relative to assets/; null src uses the game's placeholder mesh or drawing.",
+  "models": {
+    "wren": {
+      "src": "models/wren.glb",
+      "clips": [
+        "cast",
+        "idle",
+        "run",
+        "walk"
+      ]
+    },
+    "maudie": {
+      "src": "models/maudie.glb",
+      "clips": [
+        "idle",
+        "talk"
+      ]
+    },
+    "hesk": {
+      "src": "models/hesk.glb",
+      "clips": [
+        "idle",
+        "talk"
+      ]
+    },
+    "tam": {
+      "src": "models/tam.glb"
+    },
+    "hut": {
+      "src": "models/hut.glb"
+    },
+    "well": {
+      "src": "models/well.glb"
+    },
+    "reeds": {
+      "src": "models/reeds.glb"
+    },
+    "crate": {
+      "src": "models/crate.glb"
+    },
+    "barrel": {
+      "src": "models/barrel.glb"
+    }
+  },
+  "sprites": {}
+}
