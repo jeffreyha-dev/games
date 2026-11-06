@@ -1,0 +1,135 @@
+{
+  "note": "3D games: `models` (glTF, from `studio render`) and `sprites` (2D art for the HUD). src is relative to assets/; null src uses the game's placeholder mesh or drawing.",
+  "models": {
+    "rock_a": {
+      "src": "models/rock_a.glb",
+      "library": "polyfork:small-asteroid-7fc86a",
+      "resolution": "1k"
+    },
+    "rock_b": {
+      "src": "models/rock_b.glb",
+      "library": "polyfork:medium-asteroid-ba674f",
+      "resolution": "1k"
+    },
+    "rock_c": {
+      "src": "models/rock_c.glb",
+      "library": "polyfork:large-asteroid-391721",
+      "resolution": "1k"
+    },
+    "runner": {
+      "src": "models/runner.glb"
+    },
+    "hauler": {
+      "src": "models/hauler.glb"
+    },
+    "scout": {
+      "src": "models/scout.glb"
+    },
+    "patrol": {
+      "src": "models/patrol.glb"
+    },
+    "crate": {
+      "src": "models/crate.glb"
+    },
+    "station": {
+      "src": "models/station.glb"
+    },
+    "buoy": {
+      "src": "models/buoy.glb"
+    },
+    "refinery": {
+      "src": "models/refinery.glb"
+    },
+    "miner": {
+      "src": "models/miner.glb"
+    },
+    "interceptor": {
+      "src": "models/interceptor.glb"
+    },
+    "salvager": {
+      "src": "models/salvager.glb"
+    },
+    "beacon": {
+      "src": "models/beacon.glb"
+    },
+    "corvette": {
+      "src": "models/corvette.glb"
+    },
+    "checkpoint": {
+      "src": "models/checkpoint.glb"
+    },
+    "hull_plate": {
+      "src": "models/hull_plate.glb"
+    },
+    "gunship": {
+      "src": "models/gunship.glb"
+    },
+    "crystal": {
+      "src": "models/crystal.glb"
+    },
+    "hull_explorer": {
+      "src": "models/hull_explorer.glb"
+    },
+    "hull_miner": {
+      "src": "models/hull_miner.glb"
+    },
+    "hull_fighter": {
+      "src": "models/hull_fighter.glb"
+    },
+    "hull_hauler": {
+      "src": "models/hull_hauler.glb"
+    },
+    "hull_salvager": {
+      "src": "models/hull_salvager.glb"
+    },
+    "syndicate_hold": {
+      "src": "models/syndicate_hold.glb"
+    },
+    "cruiser": {
+      "src": "models/cruiser.glb"
+    },
+    "sensor_mast": {
+      "src": "models/sensor_mast.glb"
+    },
+    "derelict": {
+      "src": "models/derelict.glb"
+    },
+    "drone": {
+      "src": "models/drone.glb"
+    },
+    "frigate": {
+      "src": "models/frigate.glb"
+    },
+    "meridian": {
+      "src": "models/meridian.glb"
+    }
+  },
+  "sprites": {},
+  "textures": {
+    "ground": {
+      "maps": {
+        "diffuse": "textures/ground/diffuse.png",
+        "normal": "textures/ground/normal.png",
+        "roughness": "textures/ground/roughness.png"
+      },
+      "baked": "blender",
+      "tiles": true
+    }
+  },
+  "hdri": {
+    "sky": {
+      "src": "hdri/sky.hdr",
+      "baked": "blender",
+      "sun": 32,
+      "azimuth": 210
+    }
+  },
+  "audio": {
+    "combat": {
+      "src": "generated/audio/combat.mp3",
+      "loop": true,
+      "volume": 0.5,
+      "loopStart": 1.5
+    }
+  }
+}
