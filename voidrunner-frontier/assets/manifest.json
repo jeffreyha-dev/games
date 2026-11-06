@@ -102,6 +102,18 @@
     },
     "meridian": {
       "src": "models/meridian.glb"
+    },
+    "union_colony": {
+      "src": "models/union_colony.glb"
+    },
+    "lantern_post": {
+      "src": "models/lantern_post.glb"
+    },
+    "guild_depot": {
+      "src": "models/guild_depot.glb"
+    },
+    "outpost": {
+      "src": "models/outpost.glb"
     }
   },
   "sprites": {},
